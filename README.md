@@ -3,8 +3,9 @@ World Weather Feed - A Blockchain Weather Feed
 This app uses ARWeave Blockchain to store weather data from MetaWeather
 
 ## How To Run the script
-1st parameter is the ARWeave private key filename/location
-2nd parameter is the WOEID for a particular location([*WOEID List*]())
+* 1st parameter is the ARWeave private key filename/location
+
+* 2nd parameter is the WOEID for a particular location([*WOEID List*](https://github.com/sunnymodi21/weather-arbot/blob/master/woeid.md))
 
 Run command: 
 ```
@@ -27,7 +28,8 @@ Source of the data is https://www.metaweather.com/api/
 
 
 * data:
-| id                     | integer |               | Internal identifier for the forecast                                                                              | 
+| id                     | integer |               | Internal identifier for the forecast                                                                              |
+|------------------------|---------|---------------|-------------------------------------------------------------------------------------------------------------------|  
 | applicable_date        | date    |               | Date that the forecast or observation pertains to                                                                 | 
 | weather_state_name     | string  |               | Text description of the weather state                                                                             | 
 | weather_state_abbr     | string  |               | One or two letter abbreviation of the weather state                                                               | 
@@ -42,7 +44,7 @@ Source of the data is https://www.metaweather.com/api/
 
 
 
-ARweave tags used to filter data:
+# ARweave tags used to filter data:
 
 * `feed-type` is always `world-weather-feed`, use to search for all transactions in the stream.
 * `date` in `YYYY-MM-DD` format, used to search data points by date.
