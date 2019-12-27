@@ -29,7 +29,9 @@ Source of the data is https://www.metaweather.com/api/
 
 * data:
 
-| id                     | integer |               | Internal identifier for the forecast                                                                              |   
+| Field                  | Type    | Unit          | Description                                                                                                       | 
+|------------------------|---------|---------------|-------------------------------------------------------------------------------------------------------------------| 
+| id                     | integer |               | Internal identifier for the forecast                                                                              | 
 | applicable_date        | date    |               | Date that the forecast or observation pertains to                                                                 | 
 | weather_state_name     | string  |               | Text description of the weather state                                                                             | 
 | weather_state_abbr     | string  |               | One or two letter abbreviation of the weather state                                                               | 
