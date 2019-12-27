@@ -54,6 +54,7 @@ Source of the data is https://www.metaweather.com/api/
 
 ## ArQL Example
 * Get all Data:
+```
 {
     op: "and",
     expr1: {
@@ -67,6 +68,7 @@ Source of the data is https://www.metaweather.com/api/
         expr2: "world-weather-feed"
     }
 }
+```
 
 * Get all data for a location, eg: London:
 ```
