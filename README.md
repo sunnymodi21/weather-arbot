@@ -13,7 +13,7 @@ node aggregate-job.js arweave-keyfile.json 44418
 ```
 
 Link to the wallet address that has been archiving your data stream:
-https://viewblock.io/arweave/address/QVtKyv1jDcD2dqTQrNdYvjaFnsBRBd_kRz6Afm_JjZI
+https://viewblock.io/arweave/address/D60F9egY38jzaJcEHeuOFV8pegPK4lqEClpfok2Ncq4
 
 ## Data is archived every 24hr in `JSON` format:
 Source of the data is https://www.metaweather.com/api/
@@ -57,7 +57,7 @@ Source of the data is https://www.metaweather.com/api/
     expr1: {
         op: "equals",
         expr1: "from",
-        expr2: "QVtKyv1jDcD2dqTQrNdYvjaFnsBRBd_kRz6Afm_JjZI"
+        expr2: "D60F9egY38jzaJcEHeuOFV8pegPK4lqEClpfok2Ncq4"
     },
     expr2: {
         op: "equals",
@@ -73,7 +73,7 @@ Source of the data is https://www.metaweather.com/api/
     expr1: {
         op: "equals",
         expr1: "from",
-        expr2: "QVtKyv1jDcD2dqTQrNdYvjaFnsBRBd_kRz6Afm_JjZI"
+        expr2: "D60F9egY38jzaJcEHeuOFV8pegPK4lqEClpfok2Ncq4"
     },
     expr2: {
         op: "and",
@@ -98,7 +98,7 @@ Source of the data is https://www.metaweather.com/api/
     expr1: {
         op: "equals",
         expr1: "from",
-        expr2: "QVtKyv1jDcD2dqTQrNdYvjaFnsBRBd_kRz6Afm_JjZI"
+        expr2: "D60F9egY38jzaJcEHeuOFV8pegPK4lqEClpfok2Ncq4"
     },
     expr2: {
         op: "and",

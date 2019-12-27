@@ -89,7 +89,7 @@ async function addFeed(){
 }
 
 (async () => {
-  if(myArgs[1]=='' || myArgs[2]=='' || myArgs[1]==undefined || myArgs[2]==undefined){
+  if(myArgs[0]=='' || myArgs[1]=='' || myArgs[0]==undefined || myArgs[1]==undefined){
     console.log('Invalid Parameter')
   } else{
     await initialize()
